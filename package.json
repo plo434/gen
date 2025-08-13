@@ -1,0 +1,38 @@
+{
+  "name": "secure-messaging-system",
+  "version": "1.0.0",
+  "description": "نظام رسائل آمن مع قدرات الاتصال في الوقت الفعلي",
+  "main": "messaging-server.js",
+  "scripts": {
+    "start": "node messaging-server.js",
+    "dev": "nodemon messaging-server.js",
+    "client": "node messaging-app-v2.js",
+    "test": "node tests/test-setup.js",
+    "build": "echo 'No build step required'",
+    "clean": "node scripts/cleanup.js"
+  },
+  "keywords": [
+    "messaging",
+    "realtime",
+    "security",
+    "gundb",
+    "nodejs",
+    "arabic"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gun": "^0.2020.1241",
+    "kyber768": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
