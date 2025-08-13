@@ -22,8 +22,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gun": "^0.2020.1241",
-    "kyber768": "^1.0.0"
+    "gun": "^0.2020.1241"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
